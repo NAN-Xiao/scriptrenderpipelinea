@@ -1,7 +1,7 @@
 #ifndef GRP_FORWAEDPASS
 #define GRP_FORWAEDPASS
 
-#include "Grp_Lighting.hlsl"
+#include "Grp_ForwardLighting.hlsl"
 // #include "Grp_Core.hlsl"
 #include "Packages/com.unity.render-pipelines.core/ShaderLibrary/UnityInstancing.hlsl"
 UNITY_INSTANCING_BUFFER_START(PerInstance)
