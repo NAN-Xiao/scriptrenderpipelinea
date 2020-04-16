@@ -40,7 +40,7 @@ float4 LitPassFragment(VertexOutput input) : SV_TARGET{
 	{
 		_light+=_DLightColor[i].rgb;
 	}
-	color.rgb*=DiffuseLightLambert(input.normal);
+	color.rgb*=DiffuseLambert(input.normal);
 	return color;
 }
-	#endif  //MYRP_UNLIT_INCLUDED
+#endif  
